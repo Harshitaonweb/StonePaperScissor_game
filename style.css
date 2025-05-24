@@ -4,8 +4,13 @@
     text-align: center;
   }
   
+  body {
+    background-color: rgb(218, 108, 108);
+  }
+
   h1 {
-    background-color: #081b31;
+    
+    background-color: #5b0404;
     color: #fff;
     height: 5rem;
     line-height: 5rem;
@@ -20,11 +25,26 @@
     align-items: center;
   }
   
-  .choice:hover {
-    cursor: pointer;
-    background-color: #081b31;
+
+
+  #rock:hover {
+    opacity: 0.6;
+    cursor: pointer; 
+    background-color: #ad426e;
+  }
+
+  #paper:hover {
+    opacity: 0.6;
+    cursor: pointer; 
+    background-color: rgb(118, 77, 158);
   }
   
+  #scissors:hover {
+    opacity: 0.6;
+    cursor: pointer; 
+    background-color: rgb(74, 97, 139);
+  }
+
   img {
     height: 150px;
     width: 150px;
@@ -59,7 +79,7 @@
   }
   
   #msg {
-    background-color: #081b31;
+    background-color: #5b0404;
     color: #fff;
     font-size: 2rem;
     display: inline;
