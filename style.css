@@ -12,11 +12,11 @@
   }
 
   h1 {
-    
+    font-size: 03vw;
     background-color: #5b0404;
     color: #fff;
-    height: 20%;
-    line-height: 20vmin;
+    height: 20vmin;
+    /* line-height: 20vmin; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -85,7 +85,10 @@
  
   
   .msg-container {
-    margin-top: 10%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+
     
   }
   
@@ -98,11 +101,19 @@
     border-radius: 1rem;
   }
  
-  .boxes {
-    margin-top: 20%;
+  .boxes { 
+    
+    margin-top: 7%;
+     margin-bottom: 1%; 
+   
+   }
+
+   .style {
     display: flex;
+    margin: auto;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 10vmin;
-  }
+    
+   }
